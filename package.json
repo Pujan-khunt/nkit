@@ -1,0 +1,20 @@
+{
+  "name": "nkit",
+  "version": "1.0.0",
+  "description": "a onestop cli tool for managing short notes",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Pujan Khunt",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
