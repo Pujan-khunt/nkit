@@ -4,7 +4,8 @@
   "description": "a onestop cli tool for managing short notes",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -b"
+    "build": "tsc -b",
+    "start": "pnpm exec tsx ./src/index.ts --"
   },
   "keywords": [
     "cli"
@@ -12,9 +13,14 @@
   "author": "Pujan Khunt",
   "license": "ISC",
   "packageManager": "pnpm@10.12.1",
+  "type": "module",
   "devDependencies": {
     "@types/node": "^24.0.3",
-    "ts-node": "^10.9.2",
+    "@types/yargs": "^17.0.33",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "yargs": "^18.0.0"
   }
 }
