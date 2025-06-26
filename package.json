@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -b",
-    "start": "pnpm exec tsx ./src/index.ts --"
+    "start": "pnpm dlx tsx ./src/index.ts"
   },
   "keywords": [
     "cli"
